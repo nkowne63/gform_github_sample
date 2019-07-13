@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "typeRoots": ["src/@types", "node_modules/@types"],
+    "baseUrl": ".",
+    "paths": {
+      "*": ["src/@types/*"]
+    },
+    "module": "commonjs",
+    "outDir": "dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "allowJs": true
+  },
+  "include": ["src/**/*"]
+}

@@ -1,0 +1,18 @@
+# node dependency
+node_modules
+# temporary files
+**/*.tmp.*
+# webpack generated file
+.yo-rc.json
+!dist
+dist/*
+# clasp settings
+!dist/client
+dist/client/*
+!dist/client/appsscript.json
+# schema generation
+generated
+graphql.schema.json
+# delicate information
+.env
+.clasp.json
